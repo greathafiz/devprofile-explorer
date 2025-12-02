@@ -20,3 +20,4 @@ export const searchGithubUser = async (query: string) => {
   const data = await res.json()
   return data
 }
+
